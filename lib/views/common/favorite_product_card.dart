@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:task/constants/app_colors.dart';
 import 'package:task/models/product_model.dart';
 
 import 'rating_bar.dart';
@@ -20,7 +21,7 @@ class FavoriteProductCard extends StatelessWidget {
         margin: EdgeInsets.symmetric(vertical: 8.h),
         padding: EdgeInsets.all(12.w),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: AppColors.white,
           borderRadius: BorderRadius.circular(12.r),
           boxShadow: [
             BoxShadow(

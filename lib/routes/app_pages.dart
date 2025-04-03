@@ -31,11 +31,6 @@ class AppPages {
       case Routes.categoryProducts:
         return _buildAnimatedRoute(const CategoryProducts(), settings);
 
-      // case Routes.allCards:
-      //   return _buildAnimatedRoute(
-      //       AllCards(params: settings.arguments as CardDataParams), settings);
-      //
-
       default:
         return _buildAnimatedRoute(
           Scaffold(

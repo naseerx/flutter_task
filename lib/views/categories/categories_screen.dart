@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:task/constants/app_colors.dart';
 import 'package:task/constants/constants.dart';
 import 'package:task/providers/category_provider.dart';
 import 'package:task/routes/app_pages.dart';
@@ -85,14 +86,14 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                           child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(12),
-                                color: Colors.black),
+                                color: AppColors.primaryColor),
                             // decoration: BoxDecoration(
                             // image: DecorationImage(
                             //     image: NetworkImage(categories.url))),
                             child: Center(
                               child: Text(
                                 categories.name,
-                                style: const TextStyle(color: Colors.white),
+                                style: const TextStyle(color: AppColors.white),
                               ),
                             ),
                           ),

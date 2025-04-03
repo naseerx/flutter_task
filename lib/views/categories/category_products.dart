@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:task/constants/app_colors.dart';
 import 'package:task/providers/category_provider.dart';
 import 'package:task/constants/constants.dart';
 import 'package:task/routes/app_pages.dart';
@@ -38,7 +39,7 @@ class _CategoryProductsState extends State<CategoryProducts> {
         title: Text(
           tabProducts,
           style: TextStyle(
-              color: Colors.black,
+              color: AppColors.primaryColor,
               fontSize: 24.sp,
               fontWeight: FontWeight.bold),
         ),

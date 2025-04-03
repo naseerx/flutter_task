@@ -43,6 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
               myStore,
               style: TextStyle(
                 fontSize: 50.sp,
+                fontFamily: 'Playfair Display',
                 color: Colors.black,
               ),
             ),
@@ -54,6 +55,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   style: TextStyle(
                     fontSize: 14.sp,
                     fontWeight: FontWeight.w600,
+                    fontFamily: 'Playfair Display',
                     color: Colors.white,
                   ),
                 ),
@@ -65,6 +67,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 12.sp,
+                      fontFamily: 'Playfair Display',
                       color: Colors.white,
                     ),
                   ),
